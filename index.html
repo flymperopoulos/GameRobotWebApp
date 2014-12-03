@@ -43,7 +43,7 @@
                     <div class="item active">
                         <div class="fill" style="background-image:url(img/bg.jpg);"></div>
                         <div class="carousel-caption">
-                            <h1>Welcome!</h1>
+                            <h1>Game Robot</h1>
                             <h4>We are a team of 5 students from Olin College and this is the website for our Game Robot that plays board games against humans!</h4>
                             <a href="#about" class="btn btn-info btn-lg">Check It Out</a>
                             <br></br>
@@ -167,28 +167,51 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href="#mechanical">
+                                    <a href="#mechanical" class="portfolio-link" data-toggle="modal">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="text"><strong>Design</strong></i>
+                                            </div>
+                                        </div>
                                         <img class="img-portfolio img-responsive" src="img/unnamed.png" width = "330" height = "200">
+                                        <!-- <div class="imgWrap">
+                                            <img class="img-portfolio img-responsive" src="img/unnamed.png" width = "330" height = "200">
+                                        </div> -->
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href="#visual">
+                                    <a href="#visual" class="portfolio-link" data-toggle="modal">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="text"><strong>OpenCV</strong></i>
+                                            </div>
+                                        </div>
                                         <img class="img-portfolio img-responsive" src="img/board.png" width = "400" height = "333">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href="#software">
+                                    <a href="#software" class="portfolio-link" data-toggle="modal">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="text"><strong>Code</strong></i>
+                                            </div>
+                                        </div>
                                         <img class="img-portfolio img-responsive" src="img/framework.png" width = "400" height = "333">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href="#electrical">
+                                    <a href="#electrical" class="portfolio-link" data-toggle="modal">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="text"><strong>Motor Control</strong></i>
+                                            </div>
+                                        </div>
                                         <img class="img-portfolio img-responsive" src="img/motorcode.png" width = "400" height = "333">
                                     </a>
                                 </div>
@@ -210,7 +233,7 @@
                           <div class="col-lg-6">
                             <center>
                                 <h2 style="color: #a8a8a8">3 Axis Operation</h2>
-                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</a></p>
+                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
                             </center>
                           </div>
                           <div class="col-lg-6">
@@ -229,7 +252,7 @@
                           <div class="col-lg-6">
                             <center>
                                 <h2 style="color: #a8a8a8">Frame Design Iterations</h2>
-                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</a></p>
+                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
                             </center>
                           </div>
                       </div>
@@ -271,7 +294,21 @@
                     <div class="col-lg-10 col-lg-offset-1 text-center">
                         <h2>Board Recognition System</h2>
                         <hr class="small">
-                        <center>OpenCV Information</center>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <center>
+                                <div class ="center-x">
+                                  <h2 style="color: #a8a8a8">Computer Vision with OpenCV</h2>
+                                  <p class="bio">We used openCV to find the contour of the picture of the board. By observing the contour lines and areas, we were able to determine the position of the pieces on the board. Color detection is done in a similar way except we filter the image by the color that we want to track.</p>
+                              </div>
+                              </center>
+                            </div>
+                            <div class="col-lg-6">
+                              <center>
+                                  <img class="img-circle" src="img/question.png" alt="Mechanics pic">
+                              </center>
+                            </div>
+                        </div>                    
                     </div>
                 </div>
             </div>
