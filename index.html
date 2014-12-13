@@ -30,7 +30,7 @@
     <body>
 
         <!-- Header Carousel -->
-            <header id="myCarousel" class="carousel slide">
+            <header id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -40,7 +40,7 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-                    <div class="item active">
+                    <div class="item active" role="listbox">
                         <div class="fill" style="background-image:url(img/bg.jpg);"></div>
                         <div class="carousel-caption">
                             <h1>Game Robot</h1>
@@ -70,12 +70,16 @@
                 </div>
 
                 <!-- Controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="icon-prev"></span>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="icon-next"></span>
+
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
                 </a>
+
             </header>
 
         <!-- About -->
@@ -212,7 +216,7 @@
                                                 <i class="text"><strong>Motor Control</strong></i>
                                             </div>
                                         </div>
-                                        <img class="img-portfolio img-responsive" src="img/motorcode.png" width = "400" height = "333">
+                                        <img class="img-portfolio img-responsive" src="img/motor.png" width = "400" height = "333">
                                     </a>
                                 </div>
                             </div>
@@ -325,7 +329,7 @@
                         <img class="img-circle" src="img/filipposhead1.PNG" alt="Filippos head">
                         <h2>Filippos Lymperopoulos</h2>
                         <h3>'17, ECE</h3>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</a></p>
+                        <p class="bio">An avid scuba diver and passionate snowboarder, Filippos is a dedicated coder and he is gradually gaining respect for the area of hardware electronics. He wants to revolutionize the social software industry, as it's all "Greek to him."</a></p>
                     </center>
                   </div>
                   <div class="col-lg-4">
@@ -333,7 +337,7 @@
                         <img class="img-circle" src="img/jameshead1.PNG" alt="James head">
                         <h2>James Jang</h2>
                         <h3>'17, ECE</h3>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus. </p>
+                        <p class="bio">When Byumho doesn't twerk and/or sing he codes. A freak of nature in sports, James plays cello once a year and goes by the saying "if we were in jail, I wouldn't be trying to bail you out, I would be in the cell next to you saying "Damn, that was fun!"" </p>
                     </center>
                   </div>
                   <div class="col-lg-4">
@@ -341,7 +345,7 @@
                         <img class="img-circle" src="img/rad1n.png" alt="Radmer head">
                         <h2>Radmer van der Heyde</h2>
                         <h3>'17, ECE</h3>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                        <p class="bio">His best friend is Bud, and that will never change. The youngest person in the team, Radmer enjoys football and is lover of programming. He wants to become the first half Dutch - half Taiwanese from San Diego that goes to Mars. When he gets there, he wants to play "Berries."</p>
                     </center>
                   </div>
                 </div>
@@ -353,7 +357,7 @@
                         <img class="img-circle" src="img/andershead.PNG" alt="Anders head">
                         <h2>Anders Johnson</h2>
                         <h3>'17, MechE</h3>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus. </p>
+                        <p class="bio">Anders is a mechanical engineer that goes by "Ders." His heart belongs to Baja, but he loves you too. Yes, exactly, you over there that is reading this sentence! In a snowy day you will find him playing soccer in the great lawn, while in a sunny day he will be banging his head on the "next big thing."</p>
                     </center>
                   </div>
                   <div class="col-lg-6">
@@ -361,7 +365,7 @@
                         <img class="img-circle" src="img/joshhead1.PNG" alt="Josh head">
                         <h2>Josh Sapers</h2>
                         <h3>'17, RoboE</h3>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                        <p class="bio">Josh is an illustrious robotic engineer that perfectly creates the bridge between mechanical engineering and awesomeness. Life is too simple for him. </p>
                     </center>
                   </div>
                 </div>
@@ -429,6 +433,14 @@
             $('.carousel').carousel({
                 interval: 4000 //changes the speed
             })
+
+            $('.carousel-control.left').click(function() {
+              $('#myCarousel').carousel('prev');
+            });
+
+            $('.carousel-control.right').click(function() {
+              $('#myCarousel').carousel('next');
+            });
         </script>
 
     </body>
