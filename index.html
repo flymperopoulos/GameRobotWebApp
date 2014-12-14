@@ -34,8 +34,9 @@
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>   
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -52,7 +53,7 @@
                     <div class="item">
                         <div class="fill" style="background-image:url(img/code1.png);"></div>
                         <div class="carousel-caption">
-                            <h1>Have a look at our code and electrical systems!</h1>
+                            <h1>Have a look at our code and electrical system!</h1>
                             <h4>We used Arduino C to control our motors and Python with OpenCV to track the board's state and achieve accurate computer vision.</h4>
                             <a href="#electrical" class="btn btn-info btn-lg">Read More</a>
                             <br></br>
@@ -61,9 +62,18 @@
                     <div class="item">
                         <div class="fill" style="background-image:url(img/bg.jpg);"></div>
                         <div class="carousel-caption">
-                            <h1>Check out our mechanical system and design</h1>
+                            <h1>Check out our mechanical system and design!</h1>
                             <h4>The Game Robot was designed using OnShape and SolidWorks, while all the fabrication took place at Olin's campus.</h4>
                             <a href="#mechanical" class="btn btn-info btn-lg">Read More</a>
+                            <br></br>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="fill" style="background-image:url(img/bg.jpg);"></div>
+                        <div class="carousel-caption">
+                            <h1>The Team</h1>
+                            <h4>We are a team of electrical and mechanical engineers with a passion about integrated systems.</h4>
+                            <a href="#team" class="btn btn-info btn-lg">Meet the Team</a>
                             <br></br>
                         </div>
                     </div>
@@ -113,7 +123,7 @@
                                         <strong>Overall</strong>
                                     </h4>
                                     <p>GameRobot uses computer vision and microcontrollers to control the movement of a universal gripper in 3 dimensions.</p>
-                                    <a href="#portfolio" class="btn btn-default">Learn More</a>
+                                    <a href="#portfolio" class="btn btn-infoWhite btn-lg">Learn More</a>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
@@ -126,7 +136,7 @@
                                         <strong>Mechanical</strong>
                                     </h4>
                                     <p>We used a 3-axis gantry with stepper motors controlling the xy plane and a servo controlling the z-axis.</p>
-                                    <a href="#mechanical" class="btn btn-default">Learn More</a>
+                                    <a href="#mechanical" class="btn btn-infoWhite btn-lg">Learn More</a>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
@@ -139,7 +149,7 @@
                                         <strong>Electrical</strong>
                                     </h4>
                                     <p>We used an Arduino UNO microcontroller with two Adafruit Shields to provide power to our motors.</p>
-                                    <a href="#electrical" class="btn btn-default">Learn More</a>
+                                    <a href="#electrical" class="btn btn-infoWhite btn-lg">Learn More</a>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
@@ -152,7 +162,7 @@
                                         <strong>Software</strong>
                                     </h4>
                                     <p>We used a Raspberry Pi and OpenCV for computer vision, while developing the game framework in Python.</p>
-                                    <a href="#software" class="btn btn-default">Learn More</a>
+                                    <a href="#electrical" class="btn btn-infoWhite btn-lg">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +196,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href="#visual" class="portfolio-link" data-toggle="modal">
+                                    <a href="#electrical" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
                                                 <i class="text"><strong>OpenCV</strong></i>
@@ -198,7 +208,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href="#software" class="portfolio-link" data-toggle="modal">
+                                    <a href="#electrical" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
                                                 <i class="text"><strong>Code</strong></i>
@@ -236,27 +246,15 @@
                         <div class="row">
                           <div class="col-lg-6">
                             <center>
-                                <h2 style="color: #a8a8a8">3 Axis Operation</h2>
+                                <h2 style="color: #a8a8a8">Mechanical Design</h2>
                                 <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                <br>
+                                <div style="text-align:center"><a href="mech.html" class="btn btn-infoWhite btn-lg">Learn More</a></div>
                             </center>
                           </div>
                           <div class="col-lg-6">
                             <center>
                                 <img class="img-circle" src="img/question.png" alt="Mechanics pic">
-                            </center>
-                          </div>
-                      </div>
-
-                        <div class="row">
-                          <div class="col-lg-6">
-                            <center>
-                                <img class="img-circle" src="img/question.png" alt="Mechanics pic">
-                            </center>
-                          </div>
-                          <div class="col-lg-6">
-                            <center>
-                                <h2 style="color: #a8a8a8">Frame Design Iterations</h2>
-                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
                             </center>
                           </div>
                       </div>
@@ -270,58 +268,49 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h2>Electrical System</h2>
+                        <h2>Electrical and Software Architecture</h2>
                         <hr class="small">
-                        <center>Electrical Information</center>
-                    </div>
+                             <div class="row">
+                               <div class="col-lg-6">
+                                 <center>
+                                     <img class="img-circle" src="img/question.png" alt="Electrical pic">
+                                 </center>
+                               </div>
+                               <div class="col-lg-6">
+                                 <center>
+                                     <h2 style="color: #a8a8a8">Electrical System</h2>
+                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                     <br>
+                                     <div style="text-align:center"><a href="elec.html" class="btn btn-info btn-lg">Learn More</a></div>
+                                 </center>
+                               </div>
+                           </div> 
+                             <div class="row">
+                               <div class="col-lg-6">
+                                 <center>
+                                     <h2 style="color: #a8a8a8">Software Architecture</h2>
+                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                     <br>
+                                     <div style="text-align:center"><a href="soft.html" class="btn btn-info btn-lg">Learn More</a></div>
+                                 </center>
+                               </div>
+                               <div class="col-lg-6">
+                                 <center>
+                                     <img class="img-circle" src="img/question.png" alt="Software pic">
+                                 </center>
+                               </div>
+                           </div>                 
+                       </div>
                 </div>
             </div>
         </section>
         
-        <!-- Software Information -->
-        <section id="software" class="services bg-primary">
+        <!-- Team Information -->
+        <aside class="call-to-action bg-primary" id = "team">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h2>Software Architecture</h2>
-                        <hr class="small">
-                        <center>Software Information</center>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Visual Recognition Information -->
-        <section id="visual" class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h2>Board Recognition System</h2>
-                        <hr class="small">
-                          <div class="row">
-                            <div class="col-lg-6">
-                              <center>
-                                <div class ="center-x">
-                                  <h2 style="color: #a8a8a8">Computer Vision with OpenCV</h2>
-                                  <p class="bio">We used openCV to find the contour of the picture of the board. By observing the contour lines and areas, we were able to determine the position of the pieces on the board. Color detection is done in a similar way except we filter the image by the color that we want to track.</p>
-                              </div>
-                              </center>
-                            </div>
-                            <div class="col-lg-6">
-                              <center>
-                                  <img class="img-circle" src="img/question.png" alt="Mechanics pic">
-                              </center>
-                            </div>
-                        </div>                    
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team Information -->
-        <aside class="call-to-action bg-primary">
-            <div class="container">
-
+                    <h2>The Team</h2>
+                    <hr class="small">
                 <!-- ECE's -->
                 <div class="row">
                   <div class="col-lg-4">
@@ -345,7 +334,7 @@
                         <img class="img-circle" src="img/rad1n.png" alt="Radmer head">
                         <h2>Radmer van der Heyde</h2>
                         <h3>'17, ECE</h3>
-                        <p class="bio">His best friend is Bud, and that will never change. The youngest person in the team, Radmer enjoys football and is lover of programming. He wants to become the first half Dutch - half Taiwanese from San Diego that goes to Mars. When he gets there, he wants to play "Berries."</p>
+                        <p class="bio">His best friend is Bud, and that will never change. The youngest person in the team, Radmer enjoys football and is a lover of programming. He wants to become the first half Dutch - half Taiwanese from San Diego that goes to Mars. When he gets there, he wants to play "Berries."</p>
                     </center>
                   </div>
                 </div>
@@ -365,7 +354,7 @@
                         <img class="img-circle" src="img/joshhead1.PNG" alt="Josh head">
                         <h2>Josh Sapers</h2>
                         <h3>'17, RoboE</h3>
-                        <p class="bio">Josh is an illustrious robotic engineer that perfectly creates the bridge between mechanical engineering and awesomeness. Life is too simple for him. </p>
+                        <p class="bio">He is an illustrious robotic engineer that perfectly creates the bridge between mechanical engineering and awesomeness. Life is too simple for him. His name is Sapers, Josh Sapers. </p>
                     </center>
                   </div>
                 </div>

@@ -1145,6 +1145,16 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+
+.img-circle2 {
+  border-radius: 50%;
+}
+
+.img-circle2:hover{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -3156,6 +3166,13 @@ fieldset[disabled] .btn-success.active {
   background-color: #428BCA;
   border-color: #428BCA;
 }
+
+.btn-infoWhite {
+  color: #428BCA;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus,
@@ -3166,11 +3183,26 @@ fieldset[disabled] .btn-success.active {
   background-color: #5496cf;
   border-color: #5496cf;
 }
+
+.btn-infoWhite:hover{
+  color: #5bc0de;
+}
+.open > .dropdown-toggle.btn-infoWhite {
+  color: #428BCA;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   background-image: none;
 }
+
+.open > .dropdown-toggle.btn-infoWhite {
+  background-image: none;
+}
+
 .btn-info.disabled,
 .btn-info[disabled],
 fieldset[disabled] .btn-info,
@@ -3195,6 +3227,11 @@ fieldset[disabled] .btn-info.active {
 .btn-info .badge {
   color: #5bc0de;
   background-color: #fff;
+}
+
+.btn-infoWhite .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
 }
 .btn-warning {
   color: #fff;
