@@ -40,21 +40,33 @@
                     <div class="row">
                       <div class="col-lg-4">
                         <center>
-                            <a href="#motors"><img class="img-circle2" src="img/question.PNG" alt="mech 1" width="200" height="200" ></a>
+                            <a href="#motors">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-dashboard fa-stack-1x text-primarysoft"></i>
+                              </span>                                                        
+                            </a>
                             <h2>Motors</h2>
                         </center>
                       </div>
 
                       <div class="col-lg-4">
                         <center>
-                            <a href="#shields"><img class="img-circle2" src="img/question.PNG" alt="mech 2" width="200" height="200"></a>
+                            <a href="#shields">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-shield fa-stack-1x text-primarysoft"></i>
+                              </span>                            
+                            </a>
                             <h2>Shields</h2>
                         </center>
                       </div>
 
                       <div class="col-lg-4">
                         <center>
-                            <a href="#switches"><img class="img-circle2" src="img/question.png" alt="mech 3" width="200" height="200"></a>
+                            <a href="#switches">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-exclamation-triangle fa-stack-1x text-primarysoft"></i>
+                              </span>                             
+                            </a>
                             <h2>Limit Switches</h2>
                         </center>
                       </div>
@@ -77,7 +89,8 @@
                                <div class="col-lg-6">
                                  <center>
                                      <h2 style="color: #a8a8a8">Stepper Specs</h2>
-                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                     <p class="bio">We started off experimenting with the <a href="http://www.adafruit.com/product/1438">Adafruit Shield</a> and the <a href="http://www.riorand.com/electronics/motors/riorand-1-8-57mm-hybrid-stepper-motor-nema23-jk57hs51-2804.html">JK57HS51-2804</a> bipolar stepper motor. However, these motors asked for 2.8A per phase at 12V, and the <strong>Adafruit shield</strong> could only provide up to 600mA continuous per motor, with 1.2A peak current. Moreover, the motor controllers on this shield are designed to run from 4.5V to 25V.  Hence, these two items were not compatible with each other. Given the fact that any movement towards 1A would require a heatsink to be positioned on the motor driver, we decided to use a new bipolar stepper motor, <a href = "http://www.adafruit.com/product/324">NEMA 17</a>,  that required <strong>350mA</strong> at <strong>12V</strong> with 200 revolutions per step.</p>
+                                     <p>One Adafruit shield drove the xy-plane, while another one drove the <a href="http://www.alibaba.com/product-detail/Mini-D2028-12v-dc-air-pump_354079276.html">AIRPO DC pump</a> to pick up pieces and a servo motor to move in the z-axis. </p>
                                      <br>
                                  </center>
                                </div>
@@ -146,7 +159,7 @@
 
                     <p>1000 Olin Way<br>Needham, MA 02492</p>
                     <a href="index.html">
-                        <font color="yellow">Home Page</font>
+                        <font color="#00e500">Home Page</font>
                     </a>
                     <hr class="small">
                     <p>Copyright &copy; GameRobot 2014</p>

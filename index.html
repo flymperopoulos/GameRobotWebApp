@@ -56,6 +56,7 @@
                             <h1>Have a look at our code and electrical system!</h1>
                             <h4>We used Arduino C to control our motors and Python with OpenCV to track the board's state and achieve accurate computer vision.</h4>
                             <a href="#electrical" class="btn btn-info btn-lg">Read More</a>
+                            <a href="https://github.com/flymperopoulos/Robot-Game" class="btn btn-success btn-lg">Github  <i class="fa fa-github"></i> </a>
                             <br></br>
                         </div>
                     </div>
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="fill" style="background-image:url(img/bg.jpg);"></div>
+                        <div class="fill" style="background-image:url(img/team.jpg);"></div>
                         <div class="carousel-caption">
                             <h1>The Team</h1>
                             <h4>We are a team of electrical and mechanical engineers with a passion about integrated systems.</h4>
@@ -188,9 +189,6 @@
                                             </div>
                                         </div>
                                         <img class="img-portfolio img-responsive" src="img/unnamed.png" width = "330" height = "200">
-                                        <!-- <div class="imgWrap">
-                                            <img class="img-portfolio img-responsive" src="img/unnamed.png" width = "330" height = "200">
-                                        </div> -->
                                     </a>
                                 </div>
                             </div>
@@ -247,7 +245,7 @@
                           <div class="col-lg-6">
                             <center>
                                 <h2 style="color: #a8a8a8">Mechanical Design</h2>
-                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                <p class="bio">Our mechanical system is a <strong>3-axis gantry</strong>. The x-axis and y-axis are both powered by <strong>NEMA-17 stepper motors</strong> and the z-axis is powered by a <strong>HK15138 standard analog servo motor</strong>. A Raspberry Pi with a camera and an Arduino are mounted above the system. The inside of the gantry is designed to be able to hold the game board in the center directly below the Raspberry Pi camera.  The frame is <strong>tall</strong> enough to account for the Raspberry Pi camera’s range, while still being high enough that the <strong>user’s game experience</strong> is not impeded by the frame being in the way.</p>
                                 <br>
                                 <div style="text-align:center"><a href="mech.html" class="btn btn-infoWhite btn-lg">Learn More</a></div>
                             </center>
@@ -279,7 +277,7 @@
                                <div class="col-lg-6">
                                  <center>
                                      <h2 style="color: #a8a8a8">Electrical System</h2>
-                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                     <p class="bio">Our electrical system consisted of <strong>two bipolar stepper motors</strong>, driven by an <strong>Adafruit motor shield</strong>. Moreover, the z-axis movement was handled by another Adafruit shield that drove a servo and the DC pump of the universal gripper. We programmed the system using an <strong>Arduino UNO Microcontroller</strong> that interacted with our <strong>Raspberry Pi</strong>.</p>
                                      <br>
                                      <div style="text-align:center"><a href="elec.html" class="btn btn-info btn-lg">Learn More</a></div>
                                  </center>
@@ -289,9 +287,9 @@
                                <div class="col-lg-6">
                                  <center>
                                      <h2 style="color: #a8a8a8">Software Architecture</h2>
-                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                     <p class="bio">Our system consists of a Raspberry Pi running our <strong>framework python file</strong>, which consists of the gameplay loop with the <strong>embedded computer vision</strong>, <strong>AI program</strong>, and <strong>serial communications functions</strong> in it. The Raspberry Pi is connected to an Arduino UNO, which runs our motor control code, sending signals to two steppers, a servo, and a DC vacuum.</p>
                                      <br>
-                                     <div style="text-align:center"><a href="soft.html" class="btn btn-info btn-lg">Learn More</a></div>
+                                        <div style="text-align:center"><a href="soft.html" class="btn btn-info btn-lg">Learn More</a></div>
                                  </center>
                                </div>
                                <div class="col-lg-6">
@@ -370,6 +368,7 @@
                     <p>1000 Olin Way<br>Needham, MA 02492</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (617) 901-0274</li>
+                        <li><i class="fa fa-github fa-fw"></i>  <a href="https://github.com/flymperopoulos/Robot-Game">GameRobotRepo</a>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">olingamerobot@gmail.com</a>
                         </li>
                     </ul>

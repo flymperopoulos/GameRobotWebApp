@@ -38,30 +38,55 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="row">
-                      <div class="col-lg-4">
+                      <div class="col-lg-3">
                         <center>
-                            <a href="#framework"><img class="img-circle2" src="img/question.PNG" alt="mech 1" width="200" height="200" ></a>
+                            <a href="#framework">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-sitemap fa-stack-1x text-primarysoft"></i>
+                              </span>
+                            </a>
                             <h2>Game Framework</h2>
                         </center>
                       </div>
 
-                      <div class="col-lg-4">
+                      <div class="col-lg-3">
                         <center>
-                            <a href="#visual"><img class="img-circle2" src="img/question.PNG" alt="mech 2" width="200" height="200"></a>
-                            <h2>Visual Recognition</h2>
+                            <a href="#visual">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-camera-retro fa-stack-1x text-primarysoft"></i>
+                              </span>
+                            </a>
+                            <h2>Computer Vision</h2>
                         </center>
                       </div>
 
-                      <div class="col-lg-4">
+                      <div class="col-lg-3">
                         <center>
-                            <a href="#ai"><img class="img-circle2" src="img/question.png" alt="mech 3" width="200" height="200"></a>
+                            <a href="#ai">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-keyboard-o fa-stack-1x text-primarysoft"></i>
+                              </span>
+                            </a>
                             <h2>Artificial Intelligence</h2>
                         </center>
                       </div>
+
+                      <div class="col-lg-3">
+                        <center>
+                            <a href="#ai">
+                              <span class="fa-stack fa-5x">
+                                  <i class="fa fa-codepen fa-stack-1x text-primarysoft"></i>
+                              </span>
+                            </a>
+                            <h2>Open Source</h2>
+                        </center>
+                      </div>
+
                     </div>
                 </div>
         </aside>
 
+        <!-- Game Framework -->
         <section id="framework" class="portfolio">
             <div class="container">
                 <div class="row">
@@ -71,13 +96,15 @@
                              <div class="row">
                                <div class="col-lg-6">
                                  <center>
-                                     <img class="img-circle" src="img/question.png" alt="Software pic">
+                                     <img src="img/architecture.png" alt="Software pic" height="350" width="350">
                                  </center>
                                </div>
                                <div class="col-lg-6">
                                  <center>
-                                     <h2 style="color: #a8a8a8">Python Framework</h2>
-                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                     <h2 style="color: #a8a8a8">System Framework</h2>
+                                     <p class="bio">The Game Object, contains a representation of the board, which is a <strong>dictionary</strong> with the <strong>tuples of points</strong> being the keys and the <strong>Piece Objects</strong> as the values. We did not use any external dependencies for our gameplay code. </p>
+                                     <p>
+                                      Our <strong>generalized framework</strong> also made it easier to insert in the functions that integrated our system together, as each phase of the gameplay loop was written out explicitly. Because of this, we were able to quickly drop in the functions we had written for viewing the board using computer vision and communicating with our arduino via its <strong>serial port</strong> into their proper locations in the gameplay loop. </p>
                                      <br>
                                  </center>
                                </div>
@@ -87,6 +114,7 @@
             </div>
         </section>
 
+        <!-- Computer Vision -->
         <section id="visual" class="services bg-primary">
             <div class="container">
                 <div class="row text-center">
@@ -97,7 +125,9 @@
                           <div class="col-lg-6">
                             <center>
                                 <h2 style="color: #a8a8a8">Raspberry Pi and OpenCV</h2>
-                                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
+                                <p class="bio">
+                                  We used <strong>openCV</strong> to find the contour of the picture of the board. By observing the <strong>contour lines</strong> and areas, we were able to determine the position of the pieces on the board. <strong>Color detection</strong> is done in a similar way except we filter the image by the color that we want to track.
+                                </p>
                                 <br>
                             </center>
                           </div>
@@ -112,32 +142,96 @@
             </div>
         </section>
 
+        <!-- Artificial Intelligence Explanation -->
         <section id="ai" class="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h2>Artificial Intelligence</h2>
-                        <hr class="small">
-                             <div class="row">
-                               <div class="col-lg-6">
-                                 <center>
-                                     <img class="img-circle" src="img/question.png" alt="Software pic">
-                                 </center>
-                               </div>
-                               <div class="col-lg-6">
-                                 <center>
-                                     <h2 style="color: #a8a8a8">Recursion Depth and Analysis</h2>
-                                     <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nunc, lobortis at nisi eget, placerat aliquet ligula. Proin ac mauris felis. Sed fringilla quam nec nisi suscipit ultrices. Suspendisse vulputate leo nunc, non laoreet felis semper vitae. Etiam pharetra ante orci, at vestibulum lacus.</p>
-                                     <br>
-                                 </center>
-                               </div>
-                           </div>        
-                       </div>
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                      <h2>Artificial Intelligence</h2>
+                      <hr class="small">
+                           <div class="row">
+                             <div class="col-lg-6">
+                               <center>
+                                   <img src="img/aipic.png" alt="Software pic">
+                               </center>
+                             </div>
+                             <div class="col-lg-6">
+                               <center>
+                                   <h2 style="color: #a8a8a8">Recursion Depth and Analysis</h2>
+                                   <p class="bio">
+                                     To implement a AI, we used a <strong>recursive minimax algorithm</strong> with a limit on recursion depth, at 10, and caching to make it computationally more efficient. The formal definition of the algorithm from the web is that “for every <strong>two-person</strong>, <strong>zero-sum game</strong> with <strong>finitely many strategies</strong>, there exists a value V and a mixed strategy for each player, such that
+                                     <ul style="list-style-type:circle">
+                                       <li>Given player 2's strategy, the best payoff possible for player 1 is V</li>
+                                       <li>Given player 1's strategy, the best payoff possible for player 2 is −V."</li>
+                                     </ul>
+                                   </p>
+                                   <br>
+                               </center>
+                             </div>
+                         </div>        
+                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="footer" class="services bg-primary">
+        <!-- Artificial Intelligence Further Info -->
+        <section id="ai" class="portfolio">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                           <div class="row">
+                             <div class="col-lg-6">
+                               <center>
+                                   <h2 style="color: #a8a8a8">Recursion Depth and Analysis</h2>
+                                   <p class="bio">
+                                     In other words, from player 2’s perspective, the player wants to <strong>minimize the max value</strong> of the board of his or her turn, while player 1 tries to <strong>maximize the minimum value</strong> of the board. To implement this, we assign each terminal board a value, negative values for a player 2 win and positive values for a player 1 win. And with the assumption that player 2 will try to <strong>minimize the maximum value</strong> of the board, and player 1 will <strong>maximize the minimum value</strong> of the board, we can assign values to all board states above the terminal states.
+                                   </p>
+                                   <br>
+                               </center>
+                             </div>
+                             <div class="col-lg-6">
+                               <center>
+                                   <img src="img/aitwo.png" alt="Software pic" height="300" width="500">
+                               </center>
+                             </div>
+                         </div>        
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links to Follow -->
+        <section id="code" class="services bg-primary">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h2>Open Source Code</h2>
+                        <hr class="small">
+                        <div class="row">
+
+                          <div class="col-lg-6">
+                            <center>
+                                <img class="img-circle" src="img/question.png" alt="code pic">
+                            </center>
+                          </div>
+
+                          <div class="col-lg-6">
+                            <center>
+                                <h2 style="color: #a8a8a8">Open Source Collaboration</h2>
+                                <p class="bio">
+                                  We are advocates of open source software and we used github to host the code for our system and our project's website! We encourage you to contribute to our repositories and make the next generation of computer-interactive board games better, one commit at a time!
+                                </p>
+                                <br>
+                                <a href="https://github.com/flymperopoulos/Robot-Game" class="btn btn-success btn-lg">Github  <i class="fa fa-github"></i> </a>
+                            </center>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer" class="portfolio">
             <div class="container">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4>
@@ -146,7 +240,7 @@
 
                     <p>1000 Olin Way<br>Needham, MA 02492</p>
                     <a href="index.html">
-                        <font color="yellow">Home Page</font>
+                        <font color="#00e500">Home Page</font>
                     </a>
                     <hr class="small">
                     <p>Copyright &copy; GameRobot 2014</p>

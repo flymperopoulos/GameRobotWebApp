@@ -1348,6 +1348,11 @@ mark,
 .text-primary {
   color: #428bca;
 }
+
+.text-primarysoft {
+  color: #ffffff;
+}
+
 a.text-primary:hover {
   color: #3071a9;
 }
